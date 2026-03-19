@@ -1,0 +1,103 @@
+author: Gemini & User
+display:
+  DISPLAY_ORIENTATION: landscape
+  DISPLAY_RGB_LED: 0, 0, 255
+static_images:
+  BACKGROUND:
+    PATH: background.png
+    X: 0
+    Y: 0
+    WIDTH: 480
+    HEIGHT: 320
+STATS:
+  CPU:
+    FREQUENCY:
+      INTERVAL: 2
+      TEXT:
+        SHOW: true
+        X: 329
+        Y: 43
+        FONT: jetbrains-mono/JetBrainsMono-Bold.ttf
+        FONT_SIZE: 27
+        FONT_COLOR: 255, 255, 255
+        BACKGROUND_COLOR: 0, 0, 0
+    PERCENTAGE:
+      INTERVAL: 1
+      GRAPH:
+        SHOW: true
+        X: 126
+        Y: 31
+        WIDTH: 150
+        HEIGHT: 15
+        BAR_COLOR: 163, 73, 164
+        BACKGROUND_COLOR: 60, 60, 60
+  GPU:
+    INTERVAL: 1
+    FREQUENCY:
+      TEXT:
+        SHOW: true
+        SHOW_UNIT: true
+        X: 30
+        Y: 65
+        FONT: jetbrains-mono/JetBrainsMono-Bold.ttf
+        FONT_SIZE: 18
+        FONT_COLOR: 255, 255, 255
+        BACKGROUND_COLOR: 0, 0, 0
+    PERCENTAGE:
+      GRAPH:
+        SHOW: true
+        X: 126
+        Y: 59
+        WIDTH: 147
+        HEIGHT: 19
+        BAR_COLOR: 163, 73, 164
+        BACKGROUND_COLOR: 60, 60, 60
+  MEMORY:
+    INTERVAL: 5
+    VIRTUAL:
+      USED:
+        SHOW: true
+        SHOW_UNIT: true
+        X: 32
+        Y: 94
+        FONT: jetbrains-mono/JetBrainsMono-Bold.ttf
+        FONT_SIZE: 18
+        FONT_COLOR: 255, 255, 255
+        BACKGROUND_COLOR: 0, 0, 0
+      GRAPH:
+        SHOW: true
+        X: 125
+        Y: 96
+        WIDTH: 150
+        HEIGHT: 15
+        BAR_COLOR: 163, 73, 164
+        BACKGROUND_COLOR: 60, 60, 60
+  CUSTOM:
+    INTERVAL: 5
+    FritzAvgWatt:
+      TEXT:
+        SHOW: true
+        X: 46
+        Y: 160
+        FONT: jetbrains-mono/JetBrainsMono-Bold.ttf
+        FONT_SIZE: 18
+        FONT_COLOR: 255, 255, 255
+        BACKGROUND_COLOR: 0, 0, 0
+    FritzPowerWatt:
+      TEXT:
+        SHOW: true
+        X: 47
+        Y: 257
+        FONT: jetbrains-mono/JetBrainsMono-Bold.ttf
+        FONT_SIZE: 18
+        FONT_COLOR: 255, 255, 255
+        BACKGROUND_COLOR: 0, 0, 0
+    FritzEnergySession:
+      TEXT:
+        SHOW: true
+        X: 293
+        Y: 145
+        FONT: jetbrains-mono/JetBrainsMono-Bold.ttf
+        FONT_SIZE: 18
+        FONT_COLOR: 255, 255, 255
+        BACKGROUND_COLOR: 0, 0, 0
